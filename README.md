@@ -18,3 +18,7 @@ The project demonstrates:
 - CSS3
 - Git
 - GitHub
+
+
+## GitHub Repository
+[View project on GitHub](https://github.com/natia-gobejishvili/exam-project.git)
