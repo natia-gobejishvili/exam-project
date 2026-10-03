@@ -11,6 +11,47 @@ body {
     line-height: 1.6;
 }
 
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 8%;
+    z-index: 10;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav a {
+    color: #dbe4f2;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #7dd3fc;
+}
+
 .hero {
     min-height: 650px;
     padding: 80px 8%;
